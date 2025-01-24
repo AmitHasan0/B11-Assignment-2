@@ -359,6 +359,7 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-right: 140px;
 }
 .footer-logo{
   display: flex;
