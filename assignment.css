@@ -114,7 +114,7 @@ display: flex;
   width: 62px;
   height: 62px;
 }
-.logo-title {
+.logo-school {
   font-weight: 700;
   font-size: 2rem;
   color: #111111;
@@ -375,7 +375,7 @@ footer {
   padding-left: 140px;
 
 }
-.pera{
+.web-footer{
   display: flex;
   flex-direction: column;
 }
@@ -406,12 +406,20 @@ footer {
   color: #ffffff;
   margin-bottom: 32px;
 }
+.menu-bar{
+  width: 30px;
+  height: 30px;
+  display: none;
+}
 .social-media-section{
 
 }
 @media screen and (max-width: 576px) {
-
-  .logo-title {
+  .menu-bar{
+    display: block;
+  }
+ 
+  .logo-school {
     display: none;
   }
   .nav-hr {
